@@ -1,0 +1,142 @@
+@media(max-width:1200px) {}
+
+@media(max-width:992px) {
+    .main-slider__indicators {
+        display: none;
+    }
+
+    .slide__content_description {
+        font-size: 16px;
+    }
+
+    .main-history {
+        padding: 40px 0;
+    }
+
+    .work {
+        padding-top: 30px;
+    }
+
+    .work__description {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .header__content_description {
+        font-size: 18px;
+    }
+
+    .header__content_title {
+        font-size: 45px;
+    }
+
+    .header__list_link {
+        text-align: right;
+    }
+
+    .header__content {
+        padding-top: 20px;
+    }
+
+    .slide__content_title {
+        text-align: center;
+    }
+
+    .work-tab__content__text {
+        line-height: 18px;
+    }
+
+    .work__tabs {
+        margin-bottom: 25px;
+    }
+
+    .opportunity {
+        padding: 25px 0;
+    }
+
+    .footer__nav_logo {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .footer__info {
+        margin-top: 15px;
+    }
+
+    .footer__nav_link {
+        text-align: center;
+    }
+}
+
+@media(max-width:576px) {
+    .main-slider img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .slide__content_description {
+        line-height: 18px;
+    }
+
+    .work__tabs_list {
+        display: none;
+    }
+
+    .work-tab__content {
+        display: none;
+    }
+
+    .works__container-fluid {
+        display: none;
+    }
+
+    .work__tabs {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 320px) {
+    .header{
+        background-position: 60%;
+    }
+    .header__content_title {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .header__content_description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .main-history {
+        padding: 20px 0;
+    }
+    .main-history__description {
+        margin-bottom: 0;
+font-size: 16px;
+    }
+    .main-slider{
+        display: none;
+    }
+    .work{
+        padding-top: 15px;
+    }
+    .opportunity__card_body{
+        font-size: 16px;
+        line-height: 18px;
+        padding: 10px;
+    }
+    .main-history__title{
+        font-size: 22px;
+    }
+    .footer__info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__list_link{
+        font-size: 16px;
+    }
+}
